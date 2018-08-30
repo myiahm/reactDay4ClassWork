@@ -5,11 +5,10 @@ class TwoPlayerScoreKeeper extends Component{
     render()
     {
         return(
-            <div>
-                <ScoreButton/>
-                <ScoreButton/>
 
-            </div>
+                <span><ScoreButton/><ScoreButton/></span>
+
+            
 
 
         );

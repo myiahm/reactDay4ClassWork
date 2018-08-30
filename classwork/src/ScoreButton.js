@@ -14,11 +14,11 @@ this.setState({click: this.state.click+=1})   }
     render()
         {
         return (
-            <div>
-                <button onClick=
+
+                <span><button onClick=
                             {this.handleClickButton}>Click</button>
-                {this.state.click}
-            </div>
+                    {this.state.click}</span>
+
         );
     }
 }
