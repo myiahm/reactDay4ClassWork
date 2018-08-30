@@ -6,8 +6,9 @@ class TwoPlayerScoreKeeper extends Component{
     {
         return(
             <div>
-                <ScoreButton text={text}/>
-                <ScoreButton text={text}/>
+                <ScoreButton/>
+                <ScoreButton/>
+
             </div>
 
 

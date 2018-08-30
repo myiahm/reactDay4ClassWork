@@ -7,16 +7,17 @@ class ScoreButton extends Component{
             click: 0,
         }
     }
-    handleCLickButton = (event) => {
-        console.log({this.props.text});
-    }
+    handleClickButton = (event) => {
+
+this.setState({click: this.state.click+=1})   }
 
     render()
         {
         return (
             <div>
                 <button onClick=
-                            {this.handleClickButton}>{this.props.text}</button>
+                            {this.handleClickButton}>Click</button>
+                {this.state.click}
             </div>
         );
     }
